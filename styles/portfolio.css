@@ -81,10 +81,14 @@ main {
     margin: 0 auto;
 }
 
+section{
+    margin-top: 130px;
+}
+
 /* section styles */
 
 .about {
-    margin-top: 130px;
+    /* margin-top: 130px; */
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -95,7 +99,8 @@ main {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    /* margin-top: 130px; */
 }
 
 .section-description {
@@ -133,7 +138,7 @@ main {
     margin-top: 50px;
 }
 
-img{
+img {
     margin-top: 30px;
 }
 
@@ -153,4 +158,39 @@ img{
 
 .skill-description {
     color: #757575;
+}
+
+/* Resume Style */
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-item .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume-item .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    color: #757575;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
